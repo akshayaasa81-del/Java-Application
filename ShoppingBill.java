@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class ShoppingBill {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Product Price");
-		double price = sc.nectDouble();
+		double price = sc.nextDouble();
 		System.out.println("Enter Quality:");
 		int qty = sc.nextInt();
 		double total = price * qty;
